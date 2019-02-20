@@ -10,6 +10,8 @@ class App extends Component {
     };
   }
 
+  // componentDidMount() calls an open sourced API inside of App.js
+  // and saves the results of that API on state
   componentDidMount() {
     this.getCharacters('https://swapi.co/api/people');
   }
